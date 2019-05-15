@@ -1,0 +1,22 @@
+n=1222
+
+print(n)
+
+c=0
+
+for i in range(2,n):
+        
+	if(n%i==0):
+            
+		c=c+1
+            
+		break
+
+if(c==0 and n!=1): 
+    
+	print("yes")
+
+else:
+    
+	print("no")
+        
