@@ -1,22 +1,13 @@
-n=1222
-
-print(n)
-
-c=0
-
-for i in range(2,n):
-        
-	if(n%i==0):
-            
-		c=c+1
-            
-		break
-
-if(c==0 and n!=1): 
-    
-	print("yes")
-
-else:
-    
-	print("no")
-        
+a,b=map(int,input().split())
+l=[]
+for i in range(a+1,b):
+    s=0
+    for i1 in range(2,((i//2)+1)):
+        if i%i1==0:
+            s=s+1
+    if s==0:
+        l.append(i)
+k=len(l)
+for digit in range(k-1):
+    print(l[digit],end=' ')
+print(l[k-1],end='')  
