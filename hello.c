@@ -1,12 +1,8 @@
-#include<stdio.h>
-int main()
-{
-	int n,i;
-	printf("Enter a number:");
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
-	{ 
-		printf("\nHello");
-	}
-	return 0;
-}
+num=int(input())
+j=1
+if(num==0):
+	print()
+else:
+	whilej<=num:
+		print("Hello")
+		j=j+1
