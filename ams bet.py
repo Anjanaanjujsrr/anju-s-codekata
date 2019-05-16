@@ -1,7 +1,7 @@
 l,u=input().split()
 l=int(l)
 u=int(u)
-for n in range(l, u+ 1):
+for n in range(l, u):
     order = len(str(n))
     s = 0
     temp = n
