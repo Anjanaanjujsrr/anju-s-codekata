@@ -10,4 +10,4 @@ for n in range(l, u+ 1):
         s += digit ** order
         temp //= 10
     if n == s:
-       print(n)
+       print(n,end=" ")
