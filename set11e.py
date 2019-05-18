@@ -1,2 +1,3 @@
 a,b=map(str,input().split())
-print(a+b)
+c=a+b
+print(int(c))
