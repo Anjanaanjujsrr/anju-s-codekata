@@ -1,9 +1,7 @@
-n = input()
-n =int(n) 
-list = input(). split()
-avg = 0
-sum = 0
-for num in range(0,n+1,1):
-    sum = sum+num
-    avg=sum/n
-print(int(avg))
+N=int(input())
+lis=list(map(int,input().split()))
+sum=0
+for i in range(0,len(lis)):
+   sum=sum+lis[i]
+avg=sum//len(lis)
+print(lis[avg-1])
