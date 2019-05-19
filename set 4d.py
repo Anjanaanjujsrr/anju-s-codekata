@@ -1,5 +1,5 @@
 TEXT=input()
-WORD=0
+WORD=1
 for i in TEXT:
   if(i=='.'):
          WORD=WORD+1
