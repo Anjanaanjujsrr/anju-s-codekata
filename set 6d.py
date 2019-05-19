@@ -1,5 +1,7 @@
-a=int(input())
-if a%2==0:
+x=int(input())
+y=x%2
+if (y==0):
     print(a)
-else:
-    print(a-1)
+elif (y==1):
+    C=x-1
+    print(C)
