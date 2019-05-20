@@ -1,6 +1,7 @@
 #anju
-import re
-string=input()
-a=re.findall('[0-9]',string)
-for  i in a:
-    print(i,end='')
+number=input()
+a=""
+for i in number:
+	if i.isnumeric():
+		a=a+i
+print(a)
