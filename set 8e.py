@@ -11,6 +11,6 @@ if y%2==0:
 	print(t)
 else:
 	f=y//2
-	c[f]='*'
+	z[f]='*'
 	e=''.join(z)
 	print(e)
