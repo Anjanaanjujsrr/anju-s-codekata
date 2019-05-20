@@ -1,5 +1,5 @@
 #anju
 x,y,z=map(int,input().split())
 a=x*y
-b=x%z
+b=a%z
 print(b)
